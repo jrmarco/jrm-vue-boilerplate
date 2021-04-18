@@ -1,0 +1,24 @@
+{
+  "name": "jrm-vue-boilerplate",
+  "description": "Vue app builder boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "webpack serve",
+    "dev": "webpack --env=dev",
+    "prod": "webpack --env=prod",
+    "build": "webpack --env=prod"
+  },
+  "repository": "https://github.com/jrmarco/jrm-vue-boilerplate",
+  "author": "Marco Grossi <developer@bigm.it>",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "vue": "^3.0.11",
+    "vue-loader": "^16.2.0",
+    "webpack": "^5.33.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
