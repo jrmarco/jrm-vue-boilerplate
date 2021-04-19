@@ -14,7 +14,7 @@ module.exports = (env = {}) => ({
   },
   resolve: {
     alias: {
-      vue: "@vue/runtime-dom"
+      vue: "vue/dist/vue.esm-bundler.js"
     }
   },
   module: {
