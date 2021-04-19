@@ -6,7 +6,7 @@ Vue builder template boilerplate. Create, compile or serve your Vue application 
 
 Project is available via Github, NPM or direct download:
 
-* [Github - jrm-vue-boilerplate](https://github.com/jrmarco/jrm-vue-boilerplate)
+* [Github - jrm-vue-boilerplate](https://github.com/jrmarco/jrm-vue-boilerplate.git)
 * [NPM - jrm-vue-boilerplate](https://www.npmjs.com/package/jrm-vue-boilerplate)
 
 ### Install
@@ -14,9 +14,13 @@ Project is available via Github, NPM or direct download:
 
     1. Clone the repo
    ```sh
-   git clone https://github.com/jrmarco/jrm-vue-boilerplate
+   git clone https://github.com/jrmarco/jrm-vue-boilerplate.git
    ```
-    2. Install package from local
+    2. Enter folder
+   ```sh
+   cd jrm-vue-boilerplate/
+   ```
+    3. Install package from local
    ```sh
    npm install
    ```
