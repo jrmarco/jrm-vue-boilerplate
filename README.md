@@ -47,6 +47,11 @@ Probject comes with a sample Vue Application file ( App.vue ) readymade. Project
 ```sh
    npm run serve
 ```
+4. Use linting
+```sh
+   npm run lint // print errors, notice
+   npm run lint:fix // fix errors and notice
+```
 
 ## Contributing
 1. Fork the Project from Github

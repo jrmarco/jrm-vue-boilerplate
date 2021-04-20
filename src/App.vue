@@ -6,12 +6,12 @@
 </template>
 <script>
 export default {
-    name: 'VueBoilerplate',
-    data() {
-        return {
-            message: 'I\'m a Vue boilerplate bundler',
-            version: '1.0'
-        }
-    }
-}
+  name: 'VueBoilerplate',
+  data() {
+    return {
+      message: 'I\'m a Vue boilerplate bundler',
+      version: '1.0',
+    };
+  },
+};
 </script>
