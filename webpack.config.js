@@ -4,13 +4,15 @@ const { VueLoaderPlugin } = require('vue-loader');
 module.exports = (env = {}) => ({
   mode: env.prod ? "production" : "development",
   devtool: env.prod ? false : "inline-cheap-module-source-map",
-  entry: [
-    env.prod ? false : require.resolve(`webpack-dev-server/client`),
-    path.resolve(__dirname, "./src/main.js")
-  ].filter(Boolean),
+  entry: {
+    main: './src/main.js'
+  },
   output: {
     path: path.resolve(__dirname, "./dist"),
-    publicPath: "/dist/"
+    publicPath: "/"
+  },
+  devServer: {
+    port: 80
   },
   resolve: {
     alias: {
